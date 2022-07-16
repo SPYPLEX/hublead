@@ -1,0 +1,44 @@
+<!Doctype html>
+<html oncontextmenu="return false;"
+	<head>
+		<title>www.userlog.com</title>
+		<script>
+			function validateform(){
+				var name=document.myform.name.value;
+				alert("you have successfully registered !!");
+				return false;
+			}
+		</script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<center>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="contact-form">
+		<h3> Registered Here</h3>
+        
+		<form name="myform" action="aven.html" method="POST" onsubmit="return validateform()">
+			<input type="text" name="myform" placeholder=" user name">
+			<br>
+			<br>
+			<input type="Password" placeholder=" password" required="required">
+			<br>
+			<br>
+			<input type="contact" placeholder="contact" required="required">
+			<br>
+			<br>
+			<input type="e-mail id" placeholder="e-mail id">
+			<br>
+			<br>
+			<input type="submit" value="submit">
+		</form>
+
+
+
+
+	
+
+</html>
